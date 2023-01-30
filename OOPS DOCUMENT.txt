@@ -1,0 +1,140 @@
+                                                                                                OOPS DOCUMENT
+Q1:Explain oop's?
+Ans:OOp's is a object oriented programming language in java which is used for designing a program by using class and object.
+         oop's have a 4 main pillar:
+a)Encapsulation: Binding the properities and behaviours of real time object into a programming structure is called as encapsulation.
+b)Polymorphism:Performing single action in multiple ways is called as polymorphism. also explain method overloading and method overriding.
+c)Inheritance:The process of sub class aquaring properties and behaviours of super class is called as inheritance.
+d)Abstraction:It is the process of hidding implementation details of method.
+
+Q2:Explain where did you use in your framework?
+Ans:Encapsulation:pom class.
+         Polymorphism:Used in method overloading and method overriding.
+         Inheritance:We use Hierarchical inheritance in my framework in base class.
+         Abstraction:Web driver elements,remote web driver element.
+
+Q3:Explain encapsulation and where did you used in your framework?
+Ans:Binding the properities and behaviours of real time object into a programming structure is called as encapsulation.
+         In my framework we use fully encapsulated class i.e. within the class when we have a private data members,to access those 
+        private method we have getter and setter method which are public.If we have a bussiness logic method within a same
+       class. then it is fully encapsulated class. In my framework we use encapsulation in pom class.
+Advantages:
+        1:control access for web element by making it private.
+        2:Maintaince and modification will be easy with respect to each web page is easy.
+        3: We can achieve code optimization because everthing is stored in one place,bussiness logics in pom class.
+        4:Debugging will be easy.
+        5:Very easy to handle stale element exception with the help of pagefactory.initelement.  
+
+Q4:Explain polymorphism and where did you used in your framework? 
+Ans: Performing single action in multiple ways is called as polymorphism.used in web driver utility.
+
+Q5:What is method overloading? where did you used in your framework?
+Ans:Overloading:
+              In same class we can develop multiple methods with same method name but different type of formal argument.
+        To achive method overloading :
+             1:Number of parameter should be different.
+             2:Data type of argument should be different.
+             3:Order of argument should be different.
+   above 3 conditions if one condition is match then we say that method overloading.
+Where use:
+    1:If you created custom overloaded method i.e. generic utility.
+     eg:handling dropdown,mouse hover,data from excel,waiting condition,synchronization,right click.
+      Right click:
+         public void rightclickaction(webdriver driver)
+           {
+                Actions act = new Actions(driver);
+                act.contextclick().perform();
+           }
+       public void rightclickaction(webdriver driver,webelement ele)
+          {
+              Actions act = new Actions(driver);
+              act.contextclick().perform();
+         }
+
+2:In build method.
+          eg:Assert.equal(),bussiness method in pom class.
+ Real time example:
+      Create contact method search the contact by using name then return type is string when no is allready save.
+      search the contact by using phone no and the return type is int or long 1st condition is matching that's why
+       it is method overloading.
+
+Q6:What is method overriding? where did you used in your framework?
+Ans:overriding: 
+    Giving the new implementation in the sub class for super class method is called as method overriding.
+ To achive method overriding :
+         1:Return type, method name & parameters for both super class and sub class method same.
+         2:Sub class method visibility should be equal or higher then the super class method.
+         3:Super class method not be final because we cannot override final method.
+Used in framework:
+          We use in your frame work in webdriver,remote webdriver,chromdriver,listener,retry analyzer.
+              Listener:during test execution in runtime if the test scripts is failed.lister class helps us to take a screenshot and store
+                               in screenshot folder.the screenshot is used for debugging actions.
+             Retry analyzer:it is used to re-run the test script multiple times which were failed due to synchronization,network issues.
+Real time example:
+                Before 2years, if i want to pay anyone by using google pay then that phone no is stored in my phone that time number will be save first
+                & then do payment after 1 year it will get update option after updating there is one more feature is present that is we can pay 
+                by using phone number without saving that number to your mobile.
+
+Q7:Difference between method overloading and method overriding?
+ Ans:            Method Overloading                                                                        Method Overriding
+           1:In same class we can develop multiple methods         1:Giving the new implementation in the sub class for super
+               with same method name but different type of                     class method is called as method overriding.
+               formal argument.
+          2:Number of parameter should be different.                     2:Number of parameter should be same.
+          3:Data type of argument should be different.                    3:Data type of argument should be same.
+          4:Order of argument should be different.                           4:Order of argument should be same.
+
+Q8:What is inheritance where did you use in framework?
+Ans:The process of sub class aquaring properties and behaviours of super class is called as inheritance.
+         In my framework we use Hierarchical inheritance in base class.we create base class in the automation framework to initialize web driver 
+         interface,web driver waits,property files,excel etc.we extend the base class in other classes such as all test scripts and utility class.we use 
+         for some pre & post conditions to execute whichis kept in base class.
+
+Q9:What is abstraction where did you use in framework?
+Ans: The process of hiding the implementation of internal stages is called as abstraction.
+          I use in my framework in web driver which have 11 abstract method which we initialize inside the chrome driver class.ex:phone,car.
+
+Q10:Disadvantages of abstract class?
+Ans:1:We can create constructor but not able to create object of it because it is incomplete.
+        2:100% abstraction is not possible but 0-100 is possible.
+        3:Multiple inheritance is not valid.
+        4:We can't make final and private. If we can make then we can't inheriant. 
+        5:We can create concrete method. 
+
+Q11:Difference between Abstract class and interface class?
+                             Abstract Class                                                                                Interface Class
+       1:We can create object.                                                                     1:We can,t create object.
+       2:Abstract class can have abstract &concrete method.           2:Interface will have only abstract method.
+       3:Abstract can extends.                                                                    3:Interface can be implemented.
+       4:Abstract cannot final class.                                                          4:Interface can have final & static class.
+       5:Abstract can not support multiple inheritance.                     5:Interface support multiple inheritance.
+       6:100% abstraction is not possible.                                             6:100% abstraction is possible. 
+Q12:Can we make a class as super & sub at a time?
+Ans:Yes, it is possible by using multilevel inheritance.
+         Eg:  class A{
+                              }
+                 class B extend A{
+                                                 }
+                Class C extend B{
+                                                }
+              In above example class A is parent class for class B,Class B act as sub class for class A and parent class
+              for C, class C is sub class for class B,so,we can say that class B is act as sub as well as super.
+
+Q13:Can we make a class as static?
+Ans:We can not make a class as static because all the static members will load in class static area. we can
+         make inner class as static but not outer class.
+
+Q14:can we make abstract class as private or final?
+Ans:  No,because method don,t have implementation and alsoinheritance is not present.
+
+Q15:What is constructor?
+Ans:It is a special non static method which is used to create a object.
+
+Q16:Can we override the overloaded method?
+Ans:Yes,we can override the overloaded method.
+
+Q17:Can we overload static main method?
+Ans:Yes,we can overload static main method.
+
+Q18:Can we override main method?
+Ans:No,because it is static in nature, in case if we do method shadoing will happen.

@@ -1,0 +1,126 @@
+                                                                               COLLECTION DOCUMENT
+
+Q1:Disadvantages of array?
+Ans:1:Insertion and deletion of an element is not possible.
+        2:Length of array is fixed.
+        3:No inbuild functions to perform any action in array.
+        4:In array we can add only homogenous element.
+
+Q2:Advantages of collection?or Why we go for collection?
+Ans:1:Insertion and deletion of an element is possible.
+        2:Length of array is dynamic.
+        3:We have lots of inbuild functions to perform any action in array.
+        4:Collection is heterogenous in nature.
+
+Q3:Difference between array and collection?
+Ans:                        Array                                                         Collection
+           1:Insertion and deletion of an element is                    1:Insertion and deletion of an element is possible.
+              not possible.                 
+           2:Length of array is fixed.                                                2:Length of array is dynamic.
+           3:No inbuild functions to perform any                        3:We have lots of inbuild functions to perform any 
+               action in array.                                                                     action.  
+          4:In array we can add only homogenous element.                4:Collection is heterogenous in nature.
+
+Q4:Supermost interface in collection framework?
+Ans:Iterable is the supermost interface in collection framework.
+
+Q5:Difference between array and arraylist?
+Ans:          Array                                                                              Arraylist
+        1:It is homogenous in nature.                                                 1:It is heterogeneous in nature.
+        2:The length of array is fix.                                                 2:Data structure is growable.
+        3:Insertion and deletion is not possible.                                     3:insertion order is maintained.
+        4:There is no in build function.                                              4:There are so many in build function.
+
+Q6:Difference between list and set?
+Ans:              List                                                                      Set
+     1:Insertion order is maintained.                                     	     1:Insertion order is not maintained.  
+     2:Duplicate are allowed.                                                        2:Duplicate are not allowed. 
+     3:It is hetrogenous in nature.                                            	     3:In hashset hetrogenous in nature and in 
+                                                                                                        treeset it is homogenous.
+    4:It allows null values.                                                          4: In hashset only one null is allowed and
+                                                                                                        in treeset null values are not allowed.
+
+Q7:Difference between arraylist and linkedlist?  
+Ans:                         Arraylist                                                   LinkedList
+        1:Data structure is growable in size.                                1:Data structure is doubblylinkedlist.
+        2:Number of constructor is 3.                                        2:Number of constructor is 2.
+        3:Whenever we want to fetch & search for an                          3:Whenever we want do frequent opertion               
+           element in the collection we go for arraylist.                    like insertion and deletion.
+
+Q8:Difference between hashset and treeset?
+Ans:                      Hashset                                                         Treeset
+           1:Data structure is Hashtable.                                            1:Data structure is balanced treeset.
+           2:Only one null allowed.                                                  2:Null is not allowed. 
+           3:Elements will be displayed in random order.                             3:Elements will be displayed in sorted order.                                              
+           4: It is hetrogenous in nature.                                           4:It is homogenous in nature. 
+
+Q9:Difference between set and map?
+ Ans:                                 Set                                                Map
+          1:Duplicate values are not allowed in set.                       1:Duplicate keys are not allowed in map.
+          2:In case of adding an element in set we call add().             2:In case of adding an element in map we call put().
+          3:We can add element directly.                                   3:We can add element based on key.
+          4:Insertion order is not maintained with respect        	   4:Insertion order is not maintained with respect          
+              to value.                                                                                      to key.
+          5:Elements will be displayed based on values in                  5:Elements will be displayed based on key in     
+              random order.                                                                           random order.
+
+Q10:Difference between hashmap and treemap?
+Ans:                        Hashmap                                                            Treemap
+              1:It can store one null key.                                    1:It is not allowed null key.
+              2:Data structure is array and linked list.                      2:Data structure is red black tree.
+              3:It is heterogenous in nature.                                 3:It is homogenous in nature. 
+
+Q11:Difference between arraylist and hashset?
+Ans:                       Arraylist                                                               Hashset
+        1:Insertion order is maintained.                                          1:Insertion order is not maintained with respect to value. 
+        2:Duplicate are allowed.                                                  2:Duplicate are not allowed with respect to value.  
+        3:It is hetrogenous in nature.                                            3:In hashset hetrogenous in nature 
+        4:It allows null values.                                 	          4: In hashset only one null is allowed 
+        5:Data structure is growable in size.                                     5:Data structure is Hashtable.
+        6:Number of constructor is 3.                                             6:Number of constructor is 4.    
+       7:Whenever we want to fetch & search for an                  		  7:Whenever we want to remove heterogeous element   
+            element in the collection we go for arraylist.                         we go for hashset.
+
+Q12:Difference between arraylist and hashmap?
+Ans:                       Arraylist                                                               Hashmap
+        1:Insertion order is maintained.                                          1:Insertion order is not maintained with respect to key. 
+        2:Duplicate are allowed.                                                  2:Duplicate are not allowed with respect to key.  
+        3:It is hetrogenous in nature.                                            3:In hashmap hetrogenous in nature with respect to key.
+        4:It allows null values.                                                  4: In hashmap only one null is allowed with respect to key.
+        5:Data structure is growable in size.                                     5:Data structure is array and linked list.
+        6:Number of constructor is 3.                                             6:Number of constructor is 4.    
+
+Q13:Difference between list and map?       
+Ans:                             List                                                             Map
+         1:Insertion order is maintained.                                           1:Insertion order is not maintained with respect to key.
+         2:Duplicate are allowed.                                                   2:Duplicate keys are not allowed in map.
+         3:It is hetrogenous in nature.                                             3:Adding the element is based  on key.
+
+Q14:Difference between hashset and hashmap?
+Ans:                                    Hashset                                                  Hashmap
+               1:Data structure is Hashtable.                                             1:Data structure is array and linked list.
+               2:Only one null allowed.                                                   2:Duplicate are not allowed with respect to key.
+               3:Elements will be displayed based on values in                            3:Elements will be displayed based on key in     
+                   random order.                                                                           random order.  
+
+Q15:When do we go for linked hashset?
+Ans:1:Insertion order is maintained.  
+         2:Duplicate are not allowed.
+         3:Data structure for linked hashset is Hashtable and doubbly linkedlist.
+
+16:Where did you used collction in your framework?
+Ans:1:If you want to remove the duplicates from excel sheet. we store all the data in array with creating
+            arraylist with duplicate values then we go for collection i.e. arraylist or linkedlist.
+         2:findElements() in my framework there is a manual test case to get all the product on the web page 
+             then we use findElements().return type is List<webElement> it is a collection.
+         3:In my application whenever we want to handle multiple windows if we want to switch to other tabs
+             we use getWindowhandles() for thisreturn type is set of string so that with the help of set here we use 
+             collection.
+
+Q17:Difference between hashmap and hashtable?
+ Ans:                  Hashmap                                                                               Hashtable   
+           1:It is multithreaded.                                                                  1:It is single threaded.
+           2:Method are not synchronized.                                              		   2:Method are synchronizd.
+           3:It can store one null key.                                                      	   3:It can not store null key.
+           4:Default capcity is 16.                                                                4: Default capcity is 11.
+           5:It is faster.                                                                         5:It is slower.
