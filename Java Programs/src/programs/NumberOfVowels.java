@@ -7,7 +7,7 @@ public class NumberOfVowels {
 	public static void main(String[] args) {
 		
 		
-		String s = "manjunath";
+		String s = "kavyashree";
 		char[] s1 = s.toCharArray();
 		LinkedHashSet<Character> set = new LinkedHashSet<>();
 		for (int i = 0; i < s.length(); i++)

@@ -4,7 +4,7 @@ public class Assignment {
 	
 	public static void main(String[] args) {
 		
-		String s = "testyantra";
+		String s = "Kavyashree";
 		String odd="";
 		String even="";
 		for (int i = 0; i < s.length(); i++)

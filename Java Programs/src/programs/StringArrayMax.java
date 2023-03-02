@@ -4,7 +4,7 @@ public class StringArrayMax {
 	
 	public static void main(String[] args) {
 		
-		String str[]={"abc", "a" , "abcde" , "abcd" , "lekhu"};
+		String str[]={"abc", "a" , "abcde" , "abcd" , "kavya"};
 		
 		String max=str[0];
 		for (int i = 0; i < str.length; i++) 

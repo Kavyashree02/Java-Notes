@@ -1,3 +1,4 @@
+
 package programs;
 
 public class SumOfNumber {
@@ -24,13 +25,13 @@ public static void main(String[] args) {
 			
 		}
 		
-		for (int k = 0; k < a.length; k++) 
-		{
-		  System.out.println(a[k]);	
-		  
-		}
+//		for (int k = 0; k < a.length; k++) 
+//		{
+//		  System.out.println(a[k]);	
+//		  
+//		}
 		
-		System.out.println(" ");
+//		System.out.println(" ");
 		
 		int sum=0;
 		for (int i = a.length-1; i>a.length-4; i--) 

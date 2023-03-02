@@ -7,7 +7,7 @@ public class PrintUnique {
 public static void main(String[] args) {
 		
 		
-		String s = "testyantra";
+		String s = "kavyashree";
 		LinkedHashSet<Character> sets = new LinkedHashSet<Character>();
 		for (int i = 0; i < s.length(); i++)
 		{

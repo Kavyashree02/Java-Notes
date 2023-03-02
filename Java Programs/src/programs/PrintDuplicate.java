@@ -13,7 +13,7 @@ public static void main(String[] args) {
 		{
 			//System.out.println(s.charAt(i));
 			sets.add(s.charAt(i));
-			//System.out.println(sets);
+//			System.out.println(sets);
 			
 		} 
 		

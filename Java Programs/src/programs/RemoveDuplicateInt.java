@@ -6,27 +6,29 @@ public class RemoveDuplicateInt {
 	
 	public static void main(String[] args) {
 		
-		int a[]={1,2,3,2};
+		int s[]={1,2,3,2};
 		
 		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
 	
-		for (int i = 0; i < a.length; i++) {
-			set.add(a[i]);
+		for (int i = 0; i < s.length; i++) {
+		
+			set.add(s[i]);
 		}
+		System.out.println(set);
 		
 		
 		for (Integer num : set) {
 			int count = 0;
-			for (int i = 0; i < a.length; i++) 
+			for (int i = 0; i < s.length; i++) 
 			{
-				if (num==a[i]) 
+				if (num==s[i]) 
 				{
 					count++;
 					//System.out.println(num);
 				}
 			}
 			
-			System.out.println(num);
+			System.out.println(num+"-"+count);
 		}	
 	}
 

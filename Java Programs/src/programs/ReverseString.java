@@ -1,11 +1,11 @@
 package programs;
 
-public class PrintString {
+public class ReverseString {
 	
 public static void main(String[] args) {
 	
 	
-	String s="Lekhana";
+	String s="Kavyashree";
 	System.out.println(s.length());
 	
 	for (int i = s.length()-1; i >=0 ; i--) 
